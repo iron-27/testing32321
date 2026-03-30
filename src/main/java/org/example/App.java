@@ -132,7 +132,4 @@ public class App extends JFrame {
                 JOptionPane.INFORMATION_MESSAGE);
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(App::new);
-    }
 }
