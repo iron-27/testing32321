@@ -2,7 +2,7 @@ package org.example;
 
 public abstract class Topping implements Dish {
 
-    public Dish dish;
+    private Dish dish;
 
     public Topping(Dish dish) {
         this.dish = dish;
